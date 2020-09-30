@@ -8,3 +8,21 @@
 #about{
     text-align: center;
 }
+#services{
+    text-align: center;
+    background: url("/images/s_image.jpg");
+    height: 50vh;
+    color: white;
+    padding-top: 90px;
+}
+#what{
+    text-align: center;
+    margin-top: 20px;
+}
+#what img{
+    height: 8vh;
+}
+#portfolio{
+    text-align: center;
+    margin-top: 40px;
+}
