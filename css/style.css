@@ -1,28 +1,99 @@
+.jumbotron {
+    background: url(/images/h_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 .for-about {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 15%;
     /* font-size: 30px; */
 }
-#about{
+
+.for-about p {
+    font-size:smaller;
+    margin: 0 10%;
+}
+.for-about .logo{
+    width: 20vh;
+}
+
+@media (max-width: 560px) {
+    .for-about{
+        padding-top: 20%;
+    }
+    .for-about h1{
+        font-size: xx-large;
+    }
+    .for-about img {
+        width: 5%;
+    }
+    .for-about .logo{
+        width: 15vh;
+    }
+    .for-about .mouse {
+     
+        margin-top: 2%;
+    }
+ 
+}
+
+#about {
     text-align: center;
 }
-#services{
+
+#services {
     text-align: center;
     background: url("/images/s_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     height: 50vh;
     color: white;
-    padding-top: 90px;
+    padding-top: 6%;
 }
-#what{
+
+#what {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 3%;
 }
-#what img{
+
+#what img {
     height: 8vh;
 }
-#portfolio{
+
+#portfolio {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 4%;
+    position: relative;
+}
+
+#portfolio img {
+    width: 100%;
+}
+
+.w1, .w2, .w3, .w4, .w5, .w6, .w7, .w8 {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 75%;
+    padding: 4%;
+    margin-left:10%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    height: 82%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 1px solid white;
+    display: none;
+   }
+
+.overlay h6 {
+    padding-top: 35%;
 }
