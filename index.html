@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <title>Delani-studio</title>
 </head>
 
@@ -40,15 +43,46 @@
             <div class="row">
 
                 <div class="col-sm-4">
+                    <div id="icon1">
+                        <img src="services_icons/design_icon.png">
+                        <h4 style="text-transform: uppercase; font-size:large;">Design</h4>
+                    </div>
 
-                    <img src="services_icons/design_icon.png">
-
+                    <div class="description1">
+                        <h5 style="text-transform: uppercase; font-size:large;">Design</h5>
+                        <p>Our design practice offers a full range of services including brand strategy, interaction and
+                            visual design and user experience testing.</p>
+                        <p>Throughout your project, our designers create and implement visual design and workflows,
+                            solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                    </div>
                 </div>
                 <div class="col-sm-4">
-                    <img src="services_icons/dev_icon.png">
+                    <div id="icon2">
+                        <img src="services_icons/dev_icon.png">
+                        <h4 style="text-transform: uppercase; font-size:large;">Developement</h4>
+                    </div>
+
+                    <div class="description2">
+                        <h5 style="text-transform: uppercase; font-size:large;">Developement</h5>
+                        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                        </p>
+                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven
+                            practices such as test-driven development and pair programming.</p>
+                    </div>
                 </div>
                 <div class="col-sm-4">
-                    <img src="services_icons/product_icon.png">
+                    <div id="icon3">
+                        <img src="services_icons/product_icon.png">
+                        <h4 style="text-transform: uppercase; font-size:large;">Product management</h4>
+                    </div>
+
+                    <div class="description3">
+                        <h5 style="text-transform: uppercase; font-size:large;">Product Management</h5>
+                        <p>Planning and development is iterative. Because we are constantly coding and testing, the
+                            products we build are always ready to go live. </p>
+                        <p>This iterative process allows for changes as business requirements evolve.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,59 +90,59 @@
             <h3>Portfolio</h3>
             <div class="row">
                 <div class="col-sm-3">
-                    <img class="w1" src="portfolio/work1.jpg">
-                    <div class="overlay">
-                        <h6>Jimmy Carrey</h6>
+                    <img class="w1" id="overlay1"src="portfolio/work1.jpg">
+                    <div class="overlay1">
+                        <h6>Jim Carrey</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w2" src="portfolio/work2.jpg">
-                    <div class="overlay">
+                    <img class="w2" id="overlay2"src="portfolio/work2.jpg">
+                    <div class="overlay2">
                         <h6>Pyramid</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w3" src="portfolio/work3.jpg">
-                    <div class="overlay">
+                    <img class="w3" id="overlay3"src="portfolio/work3.jpg">
+                    <div class="overlay3">
                         <h6>Ontario</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w4" src="portfolio/work4.jpg">
-                    <div class="overlay">
+                    <img class="w4" id="overlay4"src="portfolio/work4.jpg">
+                    <div class="overlay4">
                         <h6>Blank page</h6>
                     </div>
                 </div>
             </div>
             <div class="row" style="margin-top: 20px;">
                 <div class="col-sm-3">
-                    <img class="w5" src="portfolio/work5.jpg">
-                    <div class="overlay">
+                    <img class="w5" id="overlay5"src="portfolio/work5.jpg">
+                    <div class="overlay5">
                         <h6>Good day</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w6" src="portfolio/work6.jpg">
-                    <div class="overlay">
+                    <img class="w6" id="overlay6"src="portfolio/work6.jpg">
+                    <div class="overlay6">
                         <h6>Calculator</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w7" src="portfolio/work7.jpg">
-                    <div class="overlay">
+                    <img class="w7" id="overlay7" src="portfolio/work7.jpg">
+                    <div class="overlay7">
                         <h6>Burned</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w8" src="portfolio/work8.jpg">
-                    <div class="overlay">
+                    <img class="w8" id="overlay8"src="portfolio/work8.jpg">
+                    <div class="overlay8">
                         <h6>Giraffe<br>Restaurant</h6>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container" id="contacts">
-            <div class="overlay2">
+            <div class="overlay-c">
                 <h3>Contact Us</h3>
                 <div class="row">
                     <div class="col-md-2"></div>
@@ -117,30 +151,32 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="md-form">
-                                        <input type="text" id="name" name="name" class="form-control" class="change" placeholder="Name...">
+                                        <input type="text" id="name" name="name" class="form-control" class="change"
+                                            placeholder="Name...">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="md-form ">
-                                        <input type="text" id="email" name="email" class="form-control" placeholder="Email ...">
-                                     
+                                        <input type="text" id="email" name="email" class="form-control"
+                                            placeholder="Email ...">
+
                                     </div>
                                 </div>
                             </div>
-                           
+
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form">
-                                        <textarea type="text" id="message" name="message" rows="4"class="form-control md-textarea" placeholder="message..."></textarea>
-                                      
+                                        <textarea type="text" id="message" name="message" rows="4"
+                                            class="form-control md-textarea" placeholder="message..."></textarea>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form" id="submit">
-                                        <button type="button" class="btn btn-secondary btn-sm btn-block">Submit</button>
-                                
+                                        <button type="button" id="btn" class="btn btn-secondary btn-sm btn-block">Submit</button>
                                     </div>
                                 </div>
                             </div>
@@ -149,6 +185,31 @@
                 </div>
             </div>
         </div>
+        <div id= "alert"class="alert alert-danger" role="alert">
+            Please enter your <span id="boom" ></span>
+            <button type="button" id="bo" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Thank You</h5>
+                
+                </div>
+                <div class="modal-body">
+                  <p>Hi <span class="name" style="text-transform: uppercase;font-family: 'Architects Daughter', cursive;"></span> we will get back to you soon</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" id ="close"class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+     
+
         <div class="container" id="footer">
             <div class="row">
                 <!-- <div class="col-xs-1"></div> -->
@@ -186,11 +247,12 @@
 
             </div>
         </div>
-        <div class="container"id="bottom">
-           <p>Delani Studio <br>2020</p> 
+        <div class="container" id="bottom">
+            <p>Delani Studio <br>2020</p>
         </div>
     </div>
     </div>
+
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/index.js"></script>
 </body>
