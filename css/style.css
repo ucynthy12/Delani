@@ -81,7 +81,7 @@
     display: block;
 }
 
-.overlay {
+.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8{
     position: absolute;
     top: 0;
     width: 75%;
@@ -94,9 +94,11 @@
     color: white;
     border: 1px solid white;
     display: none;
+    /* visibility: hidden; */
+    font-family: 'Ultra', serif;
 }
 
-.overlay h6 {
+ h6 {
     padding-top: 35%;
 }
 
@@ -146,3 +148,17 @@
     text-transform: uppercase;
     font-size: small;
 }
+.description1,.description2,.description3{
+    display: none;
+}
+
+.alert{
+    text-align: center;
+    display:none;
+}
+.modal h5{
+    font-family: 'Bangers', cursive;
+    font-size: xx-large;
+    color: orangered;
+}
+
