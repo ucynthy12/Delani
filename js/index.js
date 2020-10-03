@@ -1,6 +1,6 @@
 
-
-/*hover effect*/
+// Business (or back-end) logic:
+     /* 1.hover effect*/
 var port = ['w1', 'w2', 'w3', 'w4', 'w5', 'w6', 'w7', 'w8'];
 port.forEach(function (work) {
     $('.' + work).hover(function () {
@@ -11,7 +11,7 @@ port.forEach(function (work) {
 })
 
 
-/*icons toggle*/
+    /*2.icons toggle*/
 $('#icon1').click(function () {
     $('.description1').show(function () {
         $('#icon1').hide();
@@ -44,9 +44,9 @@ $('#icon3').click(function () {
     })
 })
 
-/*message after button click*/
 
 
+// User interface (or front-end) logic:/*message after button click*/
 $('#btn').click(function (event) {
     var nameInput = $('input#name').val();
     var emailInput = $('input#email').val();
