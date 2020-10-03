@@ -5,13 +5,17 @@
     background-size: cover;
     height: 80vh;
 }
+body{
+    font-family: 'Unna', serif;
+    font-size: large;  
+}
 
 .for-about {
     color: white;
     text-transform: uppercase;
     text-align: center;
     margin-top: 8%;
-    /* font-size: 30px; */
+    
 }
 
 .for-about p {
@@ -20,8 +24,10 @@
 }
 
 .for-about .logo {
-    width: 20vh;
+    width: 17vh;
+
 }
+
 
 @media (max-width: 560px) {
     .for-about {
@@ -92,12 +98,19 @@
     height: 82%;
     background: rgba(0, 0, 0, 0.6);
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     display: none;
-    /* visibility: hidden; */
     font-family: 'Ultra', serif;
 }
-
+ h3,h5,h4{
+    font-family: 'Vollkorn SC', serif;
+ }
+ #what h3{
+     margin-bottom: 2%;
+ }
+ #contacts h3{
+     color:white;
+ }
  h6 {
     padding-top: 35%;
 }
@@ -119,8 +132,7 @@
 .md-form input,.md-form textarea {
     position: relative;
     border: none;
-    background: transparent;
-    /* color: black; */
+    background: rgb(0 0 0 / 12%);
     border: 1px solid white;
     margin-bottom: 10px;
 }
@@ -128,19 +140,13 @@
 #footer{
     margin-top: 4%;
     align-items: center;
-    /* margin-left:3%;
-    margin-right: 3%; */
     width: 80%;
-    /* height: 20%; */
-    /* height: 1%; */
     padding-left: 20%;
 }
 #footer img{
     width: 70%;
 }
-/* @media screen and( min-width:992px){
- 
-} */
+
 #bottom{
     text-align: center;
     margin-top: 3%;
@@ -161,4 +167,5 @@
     font-size: xx-large;
     color: orangered;
 }
+
 
