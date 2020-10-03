@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unna&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Delani-studio</title>
 </head>
 
@@ -20,7 +23,8 @@
                 <h1>Welcome<br>to denali studio</h1>
                 <p>amazing people are making amazing designs in a fun
                     environment</p>
-                <img class="mouse" src="images/mouse_click.png" style="padding-top: 6%;">
+                    <a href="#contacts"><img class="mouse animate__animated animate__bounce animate__infinite	infinite" src="images/mouse_click.png" style="padding-top: 6%;"></a>
+                
             </div>
         </div>
         <div class="container" id="about">
@@ -31,7 +35,7 @@
                 each project by understandun your business goals, the user's needs and products requirements<br>Then we
                 help translate them into effective and elegant solutions.</p>
         </div>
-        <div class="container" id="services">
+        <div class="container-fluid" id="services">
             <h3>Services</h3>
             <p>Before we sign a contact or write a line of code our team will spend the necessary time to understand
                 your product vision<br>
@@ -39,13 +43,13 @@
                 based on your requirements, we can provide a complete offering or just the pieces you need.</p>
         </div>
         <div class="container" id="what">
-            <h4 style="text-transform: uppercase;">What we do</h4>
+            <h3>What we do</h3>
             <div class="row">
 
                 <div class="col-sm-4">
                     <div id="icon1">
                         <img src="services_icons/design_icon.png">
-                        <h4 style="text-transform: uppercase; font-size:large;">Design</h4>
+                        <h4 style="text-transform: uppercase; font-size:15px;">Design</h4>
                     </div>
 
                     <div class="description1">
@@ -59,7 +63,7 @@
                 <div class="col-sm-4">
                     <div id="icon2">
                         <img src="services_icons/dev_icon.png">
-                        <h4 style="text-transform: uppercase; font-size:large;">Developement</h4>
+                        <h4 style="text-transform: uppercase; font-size:15px;">Developement</h4>
                     </div>
 
                     <div class="description2">
@@ -73,7 +77,7 @@
                 <div class="col-sm-4">
                     <div id="icon3">
                         <img src="services_icons/product_icon.png">
-                        <h4 style="text-transform: uppercase; font-size:large;">Product management</h4>
+                        <h4 style="text-transform: uppercase; font-size:15px;">Product management</h4>
                     </div>
 
                     <div class="description3">
@@ -90,25 +94,25 @@
             <h3>Portfolio</h3>
             <div class="row">
                 <div class="col-sm-3">
-                    <img class="w1" id="overlay1"src="portfolio/work1.jpg">
+                    <img class="w1" id="overlay1" src="portfolio/work1.jpg">
                     <div class="overlay1">
                         <h6>Jim Carrey</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w2" id="overlay2"src="portfolio/work2.jpg">
+                    <img class="w2" id="overlay2" src="portfolio/work2.jpg">
                     <div class="overlay2">
                         <h6>Pyramid</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w3" id="overlay3"src="portfolio/work3.jpg">
+                    <img class="w3" id="overlay3" src="portfolio/work3.jpg">
                     <div class="overlay3">
                         <h6>Ontario</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w4" id="overlay4"src="portfolio/work4.jpg">
+                    <img class="w4" id="overlay4" src="portfolio/work4.jpg">
                     <div class="overlay4">
                         <h6>Blank page</h6>
                     </div>
@@ -116,13 +120,13 @@
             </div>
             <div class="row" style="margin-top: 20px;">
                 <div class="col-sm-3">
-                    <img class="w5" id="overlay5"src="portfolio/work5.jpg">
+                    <img class="w5" id="overlay5" src="portfolio/work5.jpg">
                     <div class="overlay5">
                         <h6>Good day</h6>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w6" id="overlay6"src="portfolio/work6.jpg">
+                    <img class="w6" id="overlay6" src="portfolio/work6.jpg">
                     <div class="overlay6">
                         <h6>Calculator</h6>
                     </div>
@@ -134,7 +138,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <img class="w8" id="overlay8"src="portfolio/work8.jpg">
+                    <img class="w8" id="overlay8" src="portfolio/work8.jpg">
                     <div class="overlay8">
                         <h6>Giraffe<br>Restaurant</h6>
                     </div>
@@ -152,7 +156,7 @@
                                 <div class="col-md-6">
                                     <div class="md-form">
                                         <input type="text" id="name" name="name" class="form-control" class="change"
-                                            placeholder="Name...">
+                                            placeholder="Name..." >
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -176,7 +180,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form" id="submit">
-                                        <button type="button" id="btn" class="btn btn-secondary btn-sm btn-block">Submit</button>
+                                        <button type="button" id="btn"
+                                            class="btn btn-secondary btn-sm btn-block">Submit</button>
                                     </div>
                                 </div>
                             </div>
@@ -185,31 +190,30 @@
                 </div>
             </div>
         </div>
-        <div id= "alert"class="alert alert-danger" role="alert">
-            Please enter your <span id="boom" ></span>
+        <div id="alert" class="alert alert-danger" role="alert">
+            Please enter your <span id="boom"></span>
             <button type="button" id="bo" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
-              </button>
-          </div>
+            </button>
+        </div>
         <div class="modal" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Thank You</h5>
-                
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Thank You</h5>
+
+                    </div>
+                    <div class="modal-body">
+                        <p>Hi <span class="name"
+                                style="text-transform: uppercase;font-family: 'Architects Daughter', cursive;"></span>
+                            we will get back to you soon</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="close" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
-                <div class="modal-body">
-                  <p>Hi <span class="name" style="text-transform: uppercase;font-family: 'Architects Daughter', cursive;"></span> we will get back to you soon</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" id ="close"class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
             </div>
-          </div>
-
-     
-
+        </div>
         <div class="container" id="footer">
             <div class="row">
                 <!-- <div class="col-xs-1"></div> -->
@@ -250,7 +254,6 @@
         <div class="container" id="bottom">
             <p>Delani Studio <br>2020</p>
         </div>
-    </div>
     </div>
 
     <script src="js/jquery-3.5.1.js"></script>
