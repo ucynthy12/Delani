@@ -19,13 +19,15 @@ This project was an application that can help us practice [Bootstrap](https://ge
  * code . or atom . depending on the text editor of your choise.
 ## BDD
 
-| Behaviour                    | Input                                  | Output                                            |
-|------------------------------|----------------------------------------|---------------------------------------------------|
-| for device width over 1024px | hover on porfolio image                | name of the project appears                       |
-| for touch screen devices     | click on portfolio image               | name of the project appears                       |
-| To send a message            | Enter name ,email and message          | pop message that thank sender                     |
-| Error message                | fail to enter name or email or message | alert message to fill in name or email or message |
-| for mouse                    | click on mouse                         | go down the page                                  |
+| Behaviour                    | Input                                  | Output                                             |
+|------------------------------|----------------------------------------|----------------------------------------------------|
+| for device width over 1024px | hover on porfolio image                | name of the project appears                        |
+| for touch screen devices     | click on portfolio image               | name of the project appears                        |
+| To send a message            | Enter name ,email and message          | pop message that thank sender                      |
+| Error message                | fail to enter name or email or message | alert message to fill in name or email or message  |
+| for mouse                    | click on mouse                         | go down the page                                   |
+| icons                        | click on icon                          | description of the icon appears and icon disappear |
+| description                  | click on description                   | icon appears and description disappear             |
 ## Known Bugs
  This project isn't fully responsive on certain devices.
 ## Technologies Used
