@@ -1,17 +1,30 @@
 
 // Business (or back-end) logic:
-     /* 1.hover effect*/
+/* 1.hover effect*/
 var port = ['w1', 'w2', 'w3', 'w4', 'w5', 'w6', 'w7', 'w8'];
 port.forEach(function (work) {
-    $('.' + work).hover(function () {
-        var delani = $(this).attr('id');
-        $('.' + delani).toggle();
-    });
+    
+    if ($(window).width()<=1024) {
+        $('.' + work). click(function () {
+            var delani = $(this).attr('id');
+            $('.' + delani).toggle(function(){
+                $('.'+delani).click(function(){
+                    $('.'+delani).hide();
+                })
+            });
+        });
+    } else {
+        $('.' + work).hover(function () {
+            var delani = $(this).attr('id');
+            $('.' + delani).toggle();
+        });
+    }
+
 
 })
 
 
-    /*2.icons toggle*/
+/*2.icons toggle*/
 $('#icon1').click(function () {
     $('.description1').show(function () {
         $('#icon1').hide();
@@ -55,27 +68,27 @@ $('#btn').click(function (event) {
         // alert('enter your name');
         $("#boom").text('name');
         $("#alert").show(function () {
-          $("#bo").click(function(){
-              $("#alert").hide();
-          })
+            $("#bo").click(function () {
+                $("#alert").hide();
+            })
         });
     }
     else if (emailInput == "") {
         // alert('enter your email');
         $("#boom").text('email');
         $("#alert").show(function () {
-          $("#bo").click(function(){
-              $("#alert").hide();
-          })
+            $("#bo").click(function () {
+                $("#alert").hide();
+            })
         });
     }
     else if (messageInput == "") {
         // alert('please describe your message in the message box');
         $("#boom").text('message');
         $("#alert").show(function () {
-          $("#bo").click(function(){
-              $("#alert").hide();
-          })
+            $("#bo").click(function () {
+                $("#alert").hide();
+            })
         });
     }
     else {
