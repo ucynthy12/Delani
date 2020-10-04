@@ -65,15 +65,14 @@ body {
     }
     #about p {
         font-size: smaller;
-    
     }
-    #services p{
+    #services p {
         font-size: smaller;
     }
-    #services h3{
+    #services h3 {
         margin-top: 35px;
     }
-    #bottom{
+    #bottom {
         height: 10px;
     }
 }
@@ -179,7 +178,6 @@ h6 {
     background-position: center center;
     background-size: cover;
     padding-bottom: 4%;
-
 }
 
 #submit input {
